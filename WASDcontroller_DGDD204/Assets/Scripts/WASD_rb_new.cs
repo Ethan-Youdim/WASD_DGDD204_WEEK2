@@ -31,7 +31,7 @@ public class WASD_rb_new : MonoBehaviour
     // fixed update is calleed once every physicics frame
     private void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(x:movedirection.x * movespeed, y:movedirection.y * movespeed)
+        rb.linearVelocity = new Vector2(x:movedirection.x * movespeed, y:movedirection.y * movespeed);
 
 
     
