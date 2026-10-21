@@ -41,6 +41,7 @@ public class WASD_transform : MonoBehaviour
         }
 
         // If I press D key I go right
+        
         if (Input.GetKey(KeyCode.D)) {
             position.x += speed * Time.deltaTime;
         }

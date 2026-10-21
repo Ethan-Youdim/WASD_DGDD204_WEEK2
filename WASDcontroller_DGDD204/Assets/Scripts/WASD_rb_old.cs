@@ -38,9 +38,8 @@ public class WASD_rb_old : MonoBehaviour
             rb.AddForce(Vector2.left * forceAmount);
         }  
 
-
-
-
 }
+
+
 
 }
